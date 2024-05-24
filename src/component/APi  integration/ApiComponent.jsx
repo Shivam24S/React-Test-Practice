@@ -1,8 +1,9 @@
 // import Get from "./Get"; // 1
-
-import Post from "./Post";
-
 // import AxiosGet from "./AxiosGet"; //2
+// import Post from "./Post"; //3
+
+import AxiosPost from "./AxiosPost";
+
 const ApiComponent = () => {
   return (
     <>
@@ -14,7 +15,10 @@ const ApiComponent = () => {
       {/* <AxiosGet /> */}
 
       {/* posting Data with fetch 3 */}
-      <Post />
+      {/* <Post /> */}
+
+      {/* posting Data with axios 4*/}
+      <AxiosPost />
     </>
   );
 };
