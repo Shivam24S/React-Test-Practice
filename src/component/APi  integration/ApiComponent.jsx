@@ -2,7 +2,9 @@
 // import AxiosGet from "./AxiosGet"; //2
 // import Post from "./Post"; //3
 
-import AxiosPost from "./AxiosPost";
+import Delete from "./Delete";
+
+// import AxiosPost from "./AxiosPost"; //4
 
 const ApiComponent = () => {
   return (
@@ -18,7 +20,10 @@ const ApiComponent = () => {
       {/* <Post /> */}
 
       {/* posting Data with axios 4*/}
-      <AxiosPost />
+      {/* <AxiosPost /> */}
+
+      {/* deleting Data with Fetch */}
+      <Delete />
     </>
   );
 };
