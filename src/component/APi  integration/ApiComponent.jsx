@@ -2,7 +2,9 @@
 // import AxiosGet from "./AxiosGet"; //2
 // import Post from "./Post"; //3
 
-import Delete from "./Delete";
+import AxiosDelete from "./AxiosDelete";
+
+// import Delete from "./Delete";
 
 // import AxiosPost from "./AxiosPost"; //4
 
@@ -22,8 +24,12 @@ const ApiComponent = () => {
       {/* posting Data with axios 4*/}
       {/* <AxiosPost /> */}
 
-      {/* deleting Data with Fetch */}
-      <Delete />
+      {/* deleting Data with Fetch 5 */}
+      {/* <Delete /> */}
+
+      {/* {deleting Data using Axios 6} */}
+
+      <AxiosDelete />
     </>
   );
 };
