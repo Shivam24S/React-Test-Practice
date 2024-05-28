@@ -12,6 +12,7 @@ import About from "./component/Router/About";
 import Product from "./component/Router/Product";
 import Service from "./component/Router/Service";
 import Help from "./component/Router/Help";
+import RTKTodoContainer from "./component/React-Redux/store/RTKTodoContainer";
 
 const App = () => {
   // routing
@@ -58,8 +59,10 @@ const App = () => {
       {/* <CrudCtx /> */}
 
       {/* Routing concept 4*/}
+      {/* <RouterProvider router={router}></RouterProvider> */}
 
-      <RouterProvider router={router}></RouterProvider>
+      {/* react redux toolkit 5 */}
+      <RTKTodoContainer />
     </>
   );
 };
